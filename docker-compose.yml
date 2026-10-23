@@ -8,7 +8,7 @@ services:
   bus:
     image: fk23/buspay:v1
     ports:
-      - "80001:80"
+      - "8001:80"
 
   loan:
     image: fk23/loanpay:v1
